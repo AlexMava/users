@@ -1,0 +1,26 @@
+.share-widget {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px;
+    background-color: #ffffff;
+    
+    .social-links {
+        width: 34px;
+        height: 34px;
+        padding: 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .icon-socials {
+            width: 30px;
+            height: 30px;
+            transition: all 0.5s;
+
+            &:hover {
+                transform: scale(0.9);
+            }
+        }
+    }
+}
