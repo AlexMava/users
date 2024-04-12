@@ -29,8 +29,8 @@ const UsersList = ({data, onSort}) => {
             <p className="text-end">
                 <select onChange={(e) =>onValueChange(e)}>
                     <option value="default" selected>By default</option>
-                    <option value="asc">A - Z</option>
-                    <option value="desc">Z - A</option>
+                    <option value="asc">By username</option>
+                    <option value="desc">Desc, by username</option>
                 </select>
             </p>
 
@@ -38,7 +38,6 @@ const UsersList = ({data, onSort}) => {
                 {elements}
             </ul> 
         </div>
-
     )
 }
 
