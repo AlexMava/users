@@ -27,8 +27,8 @@ const UsersList = ({data, onSort}) => {
     return (
         <div>
             <p className="text-end">
-                <select onChange={(e) =>onValueChange(e)}>
-                    <option value="default" selected>By default</option>
+                <select onChange={(e) =>onValueChange(e)} value="default">
+                    <option value="default">By default</option>
                     <option value="asc">By username</option>
                     <option value="desc">Desc, by username</option>
                 </select>
